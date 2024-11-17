@@ -102,7 +102,7 @@
         text-align: justify;
     }
         
-    #contact input, #contact textarea {
+    #contact input, #contact textarea, #contact input:focus, #contact textarea:focus {
         width: 70%;
         margin-top: 13px;
     }
@@ -276,7 +276,7 @@
         margin-left: 0;
     }
     
-    #contact input, #contact textarea {
+    #contact input, #contact textarea, #contact input:focus, #contact textarea:focus {
         width: 60%;
         margin-top: 13px;
     }
@@ -286,7 +286,7 @@
     }
     
     #contact .coluna-1 p {
-        width: 42ch;
+        width: 35ch;
     }
     
     #contact form {
