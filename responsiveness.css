@@ -273,6 +273,7 @@
     
     #contact .coluna-1, #contact .coluna-2 {
         padding-left: 10px;
+        margin-left: 0;
     }
     
     #contact input, #contact textarea {
