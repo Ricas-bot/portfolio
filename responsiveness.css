@@ -141,6 +141,7 @@
 
 @media all and (max-width: 767px) {
     *{
+        font-size: 13;
         --titles: 1.8rem;
     }
     
@@ -198,7 +199,7 @@
     #resume .academic, #resume .professional, #resume .skills {
         width: 75%;
         height: 50%;
-        padding: 25px;
+        padding: 15px;
         margin: 0%;
         margin-top: 6%;
     }
@@ -208,7 +209,7 @@
     }
 
     #resume .technologies img{
-        width: 40px;
+        width: 30px;
     }
 
     #projects {
@@ -252,7 +253,7 @@
     }
 
     .about .image img{
-        width: 150px;
+        width: 130px;
     }
     
     .aboutme, .about .image{
@@ -268,6 +269,7 @@
     }
     
     #contact {
+        height: 108dvh;
         display: block;
     }
     
@@ -309,7 +311,7 @@
     
     #contact .coluna-2 img.lic{
         margin-top: 7%;
-        width: 140px;
+        width: 130px;
     }
 
 }
