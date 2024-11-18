@@ -141,10 +141,10 @@
 
 @media all and (max-width: 767px) {
     *{
-        font-size: 13;
+        font-size: 13px;
         --titles: 1.8rem;
     }
-    
+
     section {
         width: 100vw;
     }
@@ -160,6 +160,7 @@
     #hero .first-col{
         height: 50%;
         margin-left: 0;
+        padding: 0px;
         justify-content: end;
         align-items: start;
         
@@ -168,11 +169,19 @@
     #hero .second-col{
         justify-content: end;
         align-items: center;
-        height: 47%;
+        height: 50%;
     }
 
     #hero h1 {
         font-size: 3rem;
+    }
+
+    #hero img {
+        width: 50%;
+    }
+
+    #resume .points, #projects .points, #about .points {
+        width: 10px;
     }
 
     #resume {
@@ -180,13 +189,17 @@
     }
 
     #resume .circles {
-        height: 50px;
+        height: 30px;
         display: flex;
         flex-direction: row;
     }
 
     #resume .skills-text{
         width: 100%;
+    }
+
+    #resume h3 {
+        font-size: 1.2rem;
     }
 
     #resume .background {
@@ -217,7 +230,7 @@
     }
   
     #projects .circles {
-        height: 50px;
+        height: 30px;
         display: flex;
         flex-direction: row;
     }
@@ -242,7 +255,7 @@
     }
     
     #about .circles {
-        height: 50px;
+        height: 30px;
         display: flex;
         flex-direction: row;
     }
@@ -269,7 +282,7 @@
     }
     
     #contact {
-        height: 108dvh;
+        height: 100%;
         display: block;
     }
     
