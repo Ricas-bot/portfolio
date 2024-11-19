@@ -7,7 +7,7 @@
     --highlighted:#D97706;
     --neutro: #F9FAFB;
     --bg: #F3F4F6;
-    --titles: 2.3rem;
+    --titles: 2.2rem;
     font-family: var(--secondary-font);
     color: var(--secondary-color);
     margin: 0;
@@ -162,8 +162,8 @@ section {
 }
 
 #resume .title {
-    padding-top: 15px;
-    text-align: center;
+    padding-top: 50px;
+    text-align: start;
 }
 
 #resume h2 {
@@ -211,8 +211,8 @@ section {
 }
 
 #projects .title {
-    padding-top: 15px;
-    text-align: center;
+    padding-top: 50px;
+    text-align: start;
 }
 
 #projects h2 {
@@ -271,8 +271,8 @@ section {
 }
 
 #about .title {
-    padding-top: 15px;
-    text-align: center;
+    padding-top: 50px;
+    text-align: start;
 }
 
 #about h2 {
@@ -308,7 +308,8 @@ section {
 #contact .title {
     font-size: var(--titles);
     color: var(--bg);
-    padding-top: 15px;
+    padding-top: 50px;
+    text-align: start;
     margin-bottom: 5px;
 }
 
@@ -375,10 +376,10 @@ section {
 }
 
 #contact .coluna-2 img.lic{
-    margin-top: 7%;
+    margin-top: 10%;
     border-radius: 50%;
     width: 165px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 #contact .coluna-2 .contactIcon {
