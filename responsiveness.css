@@ -10,6 +10,11 @@
         display: block;
     }
 
+    #resume .title {
+        padding-top: 20px;
+        text-align: center;
+    }
+
     #resume .circles {
         height: 50px;
         display: flex;
@@ -47,6 +52,11 @@
         display: block;
     }
 
+    #projects .title {
+        padding-top: 20px;
+        text-align: center;
+    }
+
     #projects .first-col .container {
         height: 65vh;
     }
@@ -70,6 +80,11 @@
 
     #about {
         display: block;
+    }
+
+    #about .title {
+        padding-top: 20px;
+        text-align: center;
     }
     
     #about .circles {
@@ -113,6 +128,10 @@
     
     #contact .coluna-1 p {
         width: 35ch;
+    }
+
+    #contact .coluna-1 {
+        margin-left: 15px;
     }
     
     #contact form {
@@ -160,7 +179,7 @@
     #hero .first-col{
         height: 50%;
         margin-left: 0;
-        padding: 0px;
+        padding: 0 0 0 10px;
         justify-content: end;
         align-items: start;
         
@@ -176,10 +195,6 @@
         font-size: 3rem;
     }
 
-    #hero img {
-        width: 50%;
-    }
-
     #resume .points, #projects .points, #about .points {
         width: 10px;
     }
@@ -188,10 +203,14 @@
         display: block;
     }
 
+    #resume .title {
+        padding-top: 30px;
+        text-align: center;
+    }
+
     #resume .circles {
         height: 30px;
-        display: flex;
-        flex-direction: row;
+        display: none;
     }
 
     #resume .skills-text{
@@ -227,12 +246,17 @@
 
     #projects {
         display: block;
+        height: 100vh;
+    }
+
+    #projects .title {
+        padding-top: 30px;
+        text-align: center;
     }
   
     #projects .circles {
         height: 30px;
-        display: flex;
-        flex-direction: row;
+        display: none;
     }
     
     #projects .project {
@@ -253,11 +277,15 @@
     #about {
         display: block;
     }
+
+    #about .title {
+        padding-top: 30px;
+        text-align: center;
+    }
     
     #about .circles {
         height: 30px;
-        display: flex;
-        flex-direction: row;
+        display: none;
     }
     
     .about{
@@ -284,6 +312,10 @@
     #contact {
         height: 100%;
         display: block;
+    }
+
+    #contact .title {
+        padding-top: 30px;
     }
     
     #contact .coluna-1, #contact .coluna-2 {
